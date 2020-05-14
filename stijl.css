@@ -1,0 +1,52 @@
+nav{
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+p{
+  font-size: 3rem;
+  color: #fffaff
+}
+
+a{
+  font-size: 2rem;
+  color: #fffaff;
+  margin-right: 3rem;
+}
+
+.wij{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div{
+  padding: 3rem;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 1rem;
+}
+
+.blauw{
+  background-color: #3e92cc;
+}
+
+.roze{
+  background-color: #d8315b;
+}
+
+.geel{
+  background-color: #f4c646;
+}
+
+.wit{
+  background-color: #fffaff;
+}
+
+.donkerblauw{
+  background-color: #0a2463;
+}
