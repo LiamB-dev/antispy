@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;700&display=swap');
 
-
+body{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+  font-weight: 300;
+  text-align: center;
+  background-color: #3e92cc;
+	display: grid;
+	grid-template-columns: 2fr 4fr 4fr 2fr;
+	grid-template-rows: 1fr 7fr 2fr 2fr;
+	grid-template-areas:
+    ". header header ."
+    ". icon quiz ."
+    ". prevButton nextButton ."
+	". results results .";
+}
 
 h1{
   font-weight: 300;
