@@ -91,38 +91,3 @@ button:hover{
   margin-top: 40px;
 	grid-area: quiz;
 }
-
-nav{
-  display: flex;
-  padding: 1.5rem;
-  justify-content: flex-start;
-  align-content: space-between;
-}
-
-a{
-  font-family: 'Permanent Marker', sans-serif;
-  font-size: 2rem;
-  color: #fffaff;
-  margin-right: 3rem;
-  text-decoration: none;
-}
-
-.blauw{
-  background-color: #3e92cc;
-}
-
-.roze{
-  background-color: #d8315b;
-}
-
-.geel{
-  background-color: #f4c646;
-}
-
-.wit{
-  background-color: #fffaff;
-}
-
-.donkerblauw{
-  background-color: #0a2463;
-}
